@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
 
 import pytest
-from parallel.main import Command, ExecutableNotFoundError
+from parallel.command import Command
+from parallel.execptions import ExecutableNotFoundError
+
 
 def test_init():
     Command()
